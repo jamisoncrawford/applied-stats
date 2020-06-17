@@ -1,0 +1,51 @@
+.practice {
+  padding: 2em;
+  background: #EEEEEE;
+  color: #767679;
+  border: 2px #CCCCCC;
+  border-radius: 20px;
+}
+
+.graph {
+  padding: 0.5em;
+  background: white;
+  color: white;
+  border: 2px white;
+  border-radius: 10px;
+}
+
+.submit {
+  padding: 2em;
+  background: #CC0000;
+  color: #FFFFFF;
+  border: 2px #CC0000;
+  border-radius: 20px;
+}
+
+.tip {
+  padding: 2em;
+  background: #0071CE;
+  color: #FFFFFF;
+  border: 2px #0071CE;
+  border-radius: 20px;
+}
+
+h1, .h1 {
+  color: #0039A6;
+}
+
+h2, .h2 {
+  color: #0039A6;
+}
+
+h3, .h3 {
+  color: #0071CE;
+}
+
+h4, .h4 {
+  color: #0071CE;
+}
+
+h5, .h5 {
+  color: #374057;
+}
