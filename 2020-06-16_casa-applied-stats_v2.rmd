@@ -3837,14 +3837,30 @@ What's more, resources are provided in certain areas to implement these practice
 <br>
 <br>
 
+<br>
+<br>
+
 ::: {.video}
 
 #### <span style="color: #FFFFFF;">Chapter Five Overview</span>
 
 <br>
 
-This overview video will be **available by 06/21/2020**. 
-*Please redownload then.*
+Watch the following video for an overview of *Chapter Five: Data Visualization*.
+
+<br>
+
+<center>
+
+::: {.graph}
+
+<div class="player">
+<iframe width="672" height="378" src="https://www.youtube.com/embed/H-pQErORe3A?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+:::
+
+</center>
 
 :::
 
