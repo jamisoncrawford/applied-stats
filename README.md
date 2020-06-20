@@ -1,4 +1,4 @@
-# Get the Picture? 
+# "Get the Picture?"
 ## An Introduction to Efficient, Effective, & Elegant Data Visualization 
 
 An introductory course for undergraduates on applied statistics in spreadsheet software.
