@@ -30,6 +30,22 @@
   border-radius: 20px;
 }
 
+.video {
+  padding: 2em;
+  background: #00AEEF;
+  color: #FFFFFF;
+  border: 2px #00AEEF;
+  border-radius: 20px;
+}
+
+.player {
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 378px;
+  width: 672px;
+}
+
 h1, .h1 {
   color: #0039A6;
 }

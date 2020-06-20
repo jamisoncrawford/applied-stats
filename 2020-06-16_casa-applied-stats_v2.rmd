@@ -1,6 +1,6 @@
 ---
-title: "Efficiency, Effectiveness, & Elegance"
-author: "An Introduction to the Fundamentals of Data Visualization"
+title: "Get the Picture?"
+author: "An Introduction to Efficient, Effective, & Elegant Data Visualization"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
@@ -16,10 +16,7 @@ output:
 
 setwd("~/CASA Quant Curriculum")
 
-knitr::opts_chunk$set(echo = FALSE,
-                      warning = FALSE,
-                      message = FALSE)
-
+library(knitr)
 library(dplyr)
 library(scales)
 library(GGally)
@@ -27,6 +24,11 @@ library(scales)
 library(readxl)
 library(ggplot2)
 library(kableExtra)
+
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE,
+                      optipng = '')
 
 ```
 
@@ -37,10 +39,38 @@ library(kableExtra)
 # Welcome
 
 Welcome to 
-*Efficiency, Effectiveness, & Elegance: An Introduction to the Fundamentals of Data Visualization*, 
+*Get the Picture? An Introduction to Efficient, Effective, & Elegant Data Visualization*, 
 a part of the Summer 2020 workshop series for the 
 [Center for the Advancement of Students & Alumni (CASA)](https://casa.gsu.edu/)
 at [Georgia State University](https://www.gsu.edu/).
+
+<br>
+<br>
+
+::: {.video}
+
+#### <span style="color: #FFFFFF;">Welcome & Orientation</span>
+
+<br>
+
+Watch the following video for a welcome from your instructor and orientation to 
+this workshop.
+
+<br>
+
+<center>
+
+::: {.graph}
+
+<div class="player">
+<iframe width="672" height="378" src="https://www.youtube.com/embed/6zzW96eq-Ro?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+:::
+
+</center>
+
+:::
 
 <br>
 <br>
@@ -50,7 +80,7 @@ at [Georgia State University](https://www.gsu.edu/).
 
 This workshop will teach you fundamental concepts in data visualization,
 one of the most powerful tools in analytics, statistics, and data science
-for conveying big ideas and sophisticated imformation to broad audiences.
+for conveying big ideas and sophisticated information to broad audiences.
 You'll learn how to prepare data for the most appropriate graphics in
 popular spreadsheet software like *Microsoft Excel* and *Google Sheets*.
 
@@ -429,6 +459,33 @@ We're only looking at some very simple concepts.  It's all very chill.
 In order to prepare you for the "applied" portion of this workshop, we'll briefly 
 introduce spreadsheet software like *Microsoft Excel* and *Google Sheets*, as 
 well as define "tabular" data, or data made up of rows and columns. 
+
+<br>
+<br>
+
+::: {.video}
+
+#### <span style="color: #FFFFFF;">Chapter One Overview</span>
+
+<br>
+
+Watch the following video for an overview of *Chapter One: Review & Preparation*.
+
+<br>
+
+<center>
+
+::: {.graph}
+
+<div class="player">
+<iframe width="672" height="378" src="https://www.youtube.com/embed/S98G1S-pAFw?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+:::
+
+</center>
+
+:::
 
 <br>
 <br>
@@ -1292,6 +1349,33 @@ kinds of data with which you'll work.
 
 <br>
 <br>
+
+::: {.video}
+
+#### <span style="color: #FFFFFF;">Chapter Two Overview</span>
+
+<br>
+
+Watch the following video for an overview of *Chapter Two: Classes & Formatting*.
+
+<br>
+
+<center>
+
+::: {.graph}
+
+<div class="player">
+<iframe width="672" height="378" src="https://www.youtube.com/embed/w2hhsjJ270k?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+:::
+
+</center>
+
+:::
+
+<br>
+<br>
 <br>
 
 ## Quantitative v. Qualitative
@@ -1908,6 +1992,33 @@ here.
 
 <br>
 <br>
+
+::: {.video}
+
+#### <span style="color: #FFFFFF;">Chapter Three Overview</span>
+
+<br>
+
+Watch the following video for an overview of *Chapter Three: Summarizing Functions*.
+
+<br>
+
+<center>
+
+::: {.graph}
+
+<div class="player">
+<iframe width="672" height="378" src="https://www.youtube.com/embed/5sEwg_kwYSY?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+:::
+
+</center>
+
+:::
+
+<br>
+<br>
 <br>
 
 ## Statistical Analysis
@@ -2435,6 +2546,33 @@ graphs, etc.
 
 The following discusses *why* and *how* we may visualize data, as well as best 
 practices.
+
+<br>
+<br>
+
+::: {.video}
+
+#### <span style="color: #FFFFFF;">Chapter Four Overview</span>
+
+<br>
+
+Watch the following video for an overview of *Chapter Four: Data Visualization*.
+
+<br>
+
+<center>
+
+::: {.graph}
+
+<div class="player">
+<iframe width="672" height="378" src="https://www.youtube.com/embed/CgR_FZMFyj4?rel=0&modestbranding=1&autohide=1&showinfo=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+:::
+
+</center>
+
+:::
 
 <br>
 <br>
@@ -3698,6 +3836,47 @@ What's more, resources are provided in certain areas to implement these practice
 
 <br>
 <br>
+
+::: {.video}
+
+#### <span style="color: #FFFFFF;">Chapter Five Overview</span>
+
+<br>
+
+This overview video will be **available by 06/21/2020**. 
+*Please redownload then.*
+
+:::
+
+<br>
+<br>
+
+::: {.tip}
+
+#### <span style="color: #FFFFFF;">Helpful Resources</span>
+
+<br>
+
+This chapter contains a series of helpful external resources, summarized here:  
+
+<br>
+
+* [<span style="color: #97CAEB;">**Data Viz Project**</span>](https://datavizproject.com/): A platform for selecting visualizations based on your data
+
+* [<span style="color: #97CAEB;">**ColorBrewer 2.0**</span>](https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3): An interactive app for selecting scientifically proven color palettes
+
+* [<span style="color: #97CAEB;">**Coolers**</span>](https://coolors.co/): A palette generator for complementary colors and gradient shades 
+
+* [<span style="color: #97CAEB;">**HTML Color Codes**</span>](https://html-color-codes.info/colors-from-image/#): A color extraction tool for identifying hex codes in images
+
+* [<span style="color: #97CAEB;">**Web AIM**</span>](https://webaim.org/resources/contrastchecker/): An accessibility tool for ensuring colors are WCAG compliant 
+
+* [<span style="color: #97CAEB;">**Google Fonts**</span>](https://fonts.google.com/): A host of free and highly-legible fonts, courtesy of Google
+
+:::
+
+<br>
+<br>
 <br>
 
 ## Selecting Visualizations
@@ -4160,7 +4339,7 @@ using a single color as a starting point, *Coolers* is the tool for you.
 
 *Coolers* not only automatically generates color palettes, but allows for 
 various shades of a given color. You can visit *Coolers* by clicking 
-[**here**]().
+[**here**](https://coolors.co/).
 
 <br>
 <br>
@@ -4302,7 +4481,7 @@ the context of a larger exposition on the importance of "The Message" as
 formative to the "Conscious Hip Hop" subgenre, a contrasting response to
 *Afrika Bambaataa's* flamboyance and shift to electro-funk, a window for 
 suburban America into the realities of the hood, and a turning point when emcees 
-began to outshine deejays like *DJ Cool Herc*.
+began to outshine deejays like *DJ Kool Herc*.
 
 <br>
 
@@ -4321,7 +4500,7 @@ An excerpt from "The Message":
 **Note:** *The tracks visualized are, per BBC Music's 2020 survey, the "best"*
 *hip hop tracks of all time. Whether or not they are the most influential*
 *is debatable, though many (especially "The Message" and "Fight the Power")*
-*are signficant milestones in the evolution of hip hop.*
+*are significant milestones in the evolution of hip hop.*
 
 <br> 
 
