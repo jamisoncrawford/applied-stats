@@ -1,0 +1,8 @@
+base
+knitr
+dplyr
+scales
+ggplot2
+GGally
+readxl
+kableExtra

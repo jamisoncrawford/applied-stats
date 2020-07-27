@@ -596,7 +596,7 @@ Not too difficult, yeah?
 
 <br>
 
-If you answered "10", that's exactly right.
+If you answered "15", that's exactly right.
 
 Reformulated, this might be: `$150 / x = $10`.  This is **algebra**!
 
